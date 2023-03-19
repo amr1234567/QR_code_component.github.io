@@ -11,6 +11,14 @@
     --DarkBlue: hsl(218, 44%, 22%);
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
 
 div {
     font-size: 15px;
@@ -27,7 +35,7 @@ div {
     height: 600px;
     left: 50%;
     top: 50%;
-    
+
     box-shadow: 3px 21px 48px 6px grey;
     transform: translate(-50%, -50%);
 }
@@ -51,15 +59,18 @@ img {
     border-radius: 10px;
     margin-bottom: 5px;
 }
+
 .block .div {
     margin: 5px;
 }
-.title{
+
+.title {
     font-weight: bold;
     margin: 10px 0px;
 }
-.descrption{
-color: #5c697596;
-font-size: 11px;
-margin-bottom: 10px;
+
+.descrption {
+    color: #5c697596;
+    font-size: 11px;
+    margin-bottom: 10px;
 }
