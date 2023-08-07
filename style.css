@@ -1,7 +1,5 @@
-* {
-    font-family: url(https://fonts.google.com/specimen/Outfit);
-    font-weight: 400;
-    background-color: var(--White);
+*{
+    font-family: 'Outfit', sans-serif;
 }
 
 :root {
@@ -9,6 +7,12 @@
     --LightGray: hsl(212, 45%, 89%);
     --GrayishBlue: hsl(220, 15%, 55%);
     --DarkBlue: hsl(218, 44%, 22%);
+}
+
+body{
+    background-color: var(--White);
+    width: 100%;
+
 }
 
 .attribution {
@@ -20,10 +24,7 @@
     color: hsl(228, 45%, 44%);
 }
 
-div {
-    font-size: 15px;
-    background-color: inherit;
-}
+
 
 .cont {
     position: absolute;
@@ -32,12 +33,10 @@ div {
     justify-content: center;
     background-color: var(--LightGray);
     width: 75%;
-    height: 600px;
-    left: 50%;
-    top: 50%;
-
+    height: 90vh;
+    margin-top: 3rem;
+    margin-left: calc(21% / 2);
     box-shadow: 3px 21px 48px 6px grey;
-    transform: translate(-50%, -50%);
 }
 
 .block {
@@ -45,12 +44,13 @@ div {
     flex-direction: column;
     text-align: center;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 2%;
     border-radius: 10px;
     padding: 10px;
     background-color: var(--White);
     height: fit-content;
-    width: 210px;
+    width: 16.5%;
 }
 
 img {
